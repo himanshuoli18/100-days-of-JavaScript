@@ -1,5 +1,5 @@
 // Hashtag Generator
-// Time Complexity - o(n)
+// Time Complexity - O(n)
 generateHash = (str) => {
     if (str.length>280 || str.trim().length ===0){
         return false
